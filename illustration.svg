@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <!-- Background circle -->
+  <circle cx="200" cy="220" r="150" fill="#FFF0EB" opacity="0.5"/>
+  
+  <!-- Hair back / bun -->
+  <ellipse cx="200" cy="120" rx="55" ry="50" fill="#2D2D2D"/>
+  <circle cx="200" cy="85" r="35" fill="#2D2D2D"/>
+  
+  <!-- Hair scrunchie -->
+  <circle cx="200" cy="85" r="22" fill="#FFB6C1" opacity="0.9"/>
+  <circle cx="200" cy="85" r="16" fill="#FF8FAB"/>
+  
+  <!-- Face -->
+  <ellipse cx="200" cy="195" rx="60" ry="65" fill="#FDDCB5"/>
+  
+  <!-- Hair front bangs -->
+  <path d="M140 170 C140 140, 165 115, 200 112 C235 115, 260 140, 260 170 C255 150, 235 135, 200 132 C165 135, 145 150, 140 170Z" fill="#2D2D2D"/>
+  
+  <!-- Side hair strands -->
+  <path d="M140 170 C132 190, 128 230, 135 270 C130 260, 125 240, 128 210 C130 190, 135 175, 140 170Z" fill="#2D2D2D"/>
+  <path d="M260 170 C268 190, 272 230, 265 270 C270 260, 275 240, 272 210 C270 190, 265 175, 260 170Z" fill="#2D2D2D"/>
+  
+  <!-- Glasses frames -->
+  <circle cx="178" cy="195" r="22" fill="none" stroke="#2D2D2D" stroke-width="3"/>
+  <circle cx="222" cy="195" r="22" fill="none" stroke="#2D2D2D" stroke-width="3"/>
+  <path d="M200 195 L200 195" stroke="#2D2D2D" stroke-width="3"/>
+  <line x1="200" y1="193" x2="200" y2="197" stroke="#2D2D2D" stroke-width="3"/>
+  <path d="M156 192 C150 188, 142 190, 138 195" stroke="#2D2D2D" stroke-width="2.5" fill="none"/>
+  <path d="M244 192 C250 188, 258 190, 262 195" stroke="#2D2D2D" stroke-width="2.5" fill="none"/>
+  
+  <!-- Eyes behind glasses -->
+  <ellipse cx="178" cy="197" rx="6" ry="7" fill="#2D2D2D"/>
+  <ellipse cx="222" cy="197" rx="6" ry="7" fill="#2D2D2D"/>
+  <circle cx="180" cy="195" r="2" fill="white"/>
+  <circle cx="224" cy="195" r="2" fill="white"/>
+  
+  <!-- Eyebrows -->
+  <path d="M164 175 Q178 170, 192 175" stroke="#2D2D2D" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M208 175 Q222 170, 236 175" stroke="#2D2D2D" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Blush -->
+  <ellipse cx="160" cy="212" rx="12" ry="7" fill="#FFB6C1" opacity="0.45"/>
+  <ellipse cx="240" cy="212" rx="12" ry="7" fill="#FFB6C1" opacity="0.45"/>
+  
+  <!-- Nose -->
+  <path d="M197 208 Q200 213, 203 208" stroke="#E8C9A0" stroke-width="1.5" fill="none"/>
+  
+  <!-- Smile -->
+  <path d="M188 224 Q200 234, 212 224" stroke="#2D2D2D" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Neck -->
+  <rect x="190" y="255" width="20" height="22" rx="10" fill="#FDDCB5"/>
+  
+  <!-- Top / Shirt -->
+  <path d="M155 278 C155 268, 175 258, 200 258 C225 258, 245 268, 245 278 L252 365 C252 375, 228 385, 200 385 C172 385, 148 375, 148 365Z" fill="#FF8FAB"/>
+  
+  <!-- Collar / neckline -->
+  <path d="M182 263 L200 278 L218 263" stroke="#FF6B8A" stroke-width="2" fill="none"/>
+  
+  <!-- Shoulders detail -->
+  <path d="M155 282 C148 285, 145 290, 148 295" stroke="#FF6B8A" stroke-width="1.5" fill="none"/>
+  <path d="M245 282 C252 285, 255 290, 252 295" stroke="#FF6B8A" stroke-width="1.5" fill="none"/>
+  
+  <!-- Arms -->
+  <path d="M155 285 C135 295, 120 325, 118 355 C116 365, 122 368, 128 363 C132 358, 142 335, 155 315" fill="#FDDCB5"/>
+  <path d="M245 285 C265 295, 280 325, 282 355 C284 365, 278 368, 272 363 C268 358, 258 335, 245 315" fill="#FDDCB5"/>
+  
+  <!-- Hands -->
+  <ellipse cx="118" cy="358" rx="9" ry="7" fill="#FDDCB5"/>
+  <ellipse cx="282" cy="358" rx="9" ry="7" fill="#FDDCB5"/>
+  
+  <!-- Small hearts floating -->
+  <g opacity="0.7">
+    <path d="M300 140 C300 136, 306 136, 306 140 C306 144, 300 150, 300 150 C300 150, 294 144, 294 140 C294 136, 300 136, 300 140Z" fill="#FFB6C1"/>
+    <path d="M110 150 C110 147, 114 147, 114 150 C114 153, 110 158, 110 158 C110 158, 106 153, 106 150 C106 147, 110 147, 110 150Z" fill="#C8A2E8" opacity="0.6"/>
+    <path d="M280 100 C280 97, 284 97, 284 100 C284 103, 280 108, 280 108 C280 108, 276 103, 276 100 C276 97, 280 97, 280 100Z" fill="#A8D8EA" opacity="0.5"/>
+    <path d="M130 110 C130 107, 134 107, 134 110 C134 113, 130 118, 130 118 C130 118, 126 113, 126 110 C126 107, 130 107, 130 110Z" fill="#FFB6C1" opacity="0.5"/>
+  </g>
+  
+  <!-- Sparkle stars -->
+  <g fill="#C8A2E8" opacity="0.5">
+    <path d="M310 180 L312 186 L318 186 L313 190 L315 196 L310 192 L305 196 L307 190 L302 186 L308 186Z" transform="scale(0.6)"/>
+    <path d="M310 180 L312 186 L318 186 L313 190 L315 196 L310 192 L305 196 L307 190 L302 186 L308 186Z" transform="translate(50, 250) scale(0.4)"/>
+  </g>
+  
+  <g fill="#FFB6C1" opacity="0.4">
+    <path d="M310 180 L312 186 L318 186 L313 190 L315 196 L310 192 L305 196 L307 190 L302 186 L308 186Z" transform="translate(60, 80) scale(0.5)"/>
+    <path d="M310 180 L312 186 L318 186 L313 190 L315 196 L310 192 L305 196 L307 190 L302 186 L308 186Z" transform="translate(-30, 200) scale(0.35)"/>
+  </g>
+</svg>

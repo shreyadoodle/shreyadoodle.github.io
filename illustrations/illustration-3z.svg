@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <rect width="400" height="500" fill="#F5FFF0"/>
+  <circle cx="200" cy="200" r="120" fill="#B8E6D0" opacity="0.3"/>
+  <ellipse cx="200" cy="215" rx="55" ry="60" fill="#FDDCB5"/>
+  <path d="M145 185 C140 145, 170 110, 200 105 C230 110, 260 145, 255 185 C260 225, 260 275, 245 305 C235 325, 215 335, 200 340 C185 335, 165 325, 155 305 C140 275, 140 225, 145 185Z" fill="#2D2D2D"/>
+  <path d="M148 180 C148 153, 170 133, 200 130 C175 143, 162 163, 155 183Z" fill="#2D2D2D"/>
+  <path d="M252 180 C252 153, 230 133, 200 130 C225 143, 238 163, 245 183Z" fill="#2D2D2D"/>
+  <ellipse cx="182" cy="213" rx="7" ry="8" fill="#2D2D2D"/>
+  <ellipse cx="218" cy="213" rx="7" ry="8" fill="#2D2D2D"/>
+  <circle cx="184" cy="211" r="2" fill="white"/>
+  <circle cx="220" cy="211" r="2" fill="white"/>
+  <ellipse cx="167" cy="227" rx="10" ry="6" fill="#FFB6C1" opacity="0.5"/>
+  <ellipse cx="233" cy="227" rx="10" ry="6" fill="#FFB6C1" opacity="0.5"/>
+  <path d="M192 237 Q200 245, 208 237" stroke="#2D2D2D" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M197 223 Q200 228, 203 223" stroke="#E8C9A0" stroke-width="1.5" fill="none"/>
+  <rect x="192" y="273" width="16" height="20" rx="8" fill="#FDDCB5"/>
+  <path d="M160 295 C160 285, 178 277, 200 277 C222 277, 240 285, 240 295 L248 375 C248 383, 225 393, 200 393 C175 393, 152 383, 152 375Z" fill="#C5D86D"/>
+  <path d="M160 300 C140 310, 125 340, 122 365 C120 373, 125 375, 130 371 C135 365, 145 345, 160 325" fill="#FDDCB5"/>
+  <path d="M240 300 C260 310, 275 340, 278 365 C280 373, 275 375, 270 371 C265 365, 255 345, 240 325" fill="#FDDCB5"/>
+  <ellipse cx="240" cy="367" rx="9" ry="7" fill="#FDDCB5"/>
+  <!-- Cat on head -->
+  <ellipse cx="200" cy="100" rx="35" ry="25" fill="#E8DDD5"/>
+  <circle cx="185" cy="82" r="10" fill="#E8DDD5"/>
+  <circle cx="215" cy="82" r="10" fill="#E8DDD5"/>
+  <circle cx="185" cy="82" r="6" fill="#FFB6C1" opacity="0.6"/>
+  <circle cx="215" cy="82" r="6" fill="#FFB6C1" opacity="0.6"/>
+  <circle cx="193" cy="97" r="3" fill="#2D2D2D"/>
+  <circle cx="207" cy="97" r="3" fill="#2D2D2D"/>
+  <path d="M197 103 Q200 106, 203 103" stroke="#2D2D2D" stroke-width="1.5" fill="none"/>
+  <circle cx="183" cy="115" r="2" fill="#FDDCB5"/>
+  <circle cx="217" cy="115" r="2" fill="#FDDCB5"/>
+  <!-- Boba tea -->
+  <rect x="225" y="310" width="35" height="50" rx="5" fill="white" opacity="0.8"/>
+  <rect x="228" y="315" width="29" height="40" rx="3" fill="#D4A574" opacity="0.6"/>
+  <circle cx="235" cy="345" r="3" fill="#2D2D2D" opacity="0.7"/>
+  <circle cx="242" cy="348" r="3" fill="#2D2D2D" opacity="0.7"/>
+  <circle cx="249" cy="345" r="3" fill="#2D2D2D" opacity="0.7"/>
+  <circle cx="238" cy="340" r="3" fill="#2D2D2D" opacity="0.7"/>
+  <circle cx="245" cy="342" r="3" fill="#2D2D2D" opacity="0.7"/>
+  <rect x="238" y="295" width="4" height="30" rx="2" fill="#2D8B6E"/>
+  <!-- Hearts -->
+  <g fill="#FFB6C1" opacity="0.6"><path d="M310 120 C310 116, 316 116, 316 120 C316 124, 310 130, 310 130 C310 130, 304 124, 304 120 C304 116, 310 116, 310 120Z" transform="scale(0.6) translate(100, 80)"/></g>
+  <g fill="#C8A2E8" opacity="0.4"><path d="M310 120 L312 126 L318 126 L313 130 L315 136 L310 132 L305 136 L307 130 L302 126 L308 126Z" transform="scale(0.4) translate(80, 380)"/></g>
+  <text x="200" y="450" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#A0A0A0">Replace with your photo ♡</text>
+</svg>

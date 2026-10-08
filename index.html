@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreya Agarwal — Visual Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700&family=Sometype+Mono:wght@400&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ===== Loading Screen ===== -->
+    <div class="loader" id="loader">
+        <div class="loader-inner">
+            <div class="loader-illustration">
+                <img src="illustrations/illustration-1.png" alt="Shreya Illustration" class="loader-avatar">
+            </div>
+            <div class="loader-text">
+                <div class="loader-line loader-line-1">
+                    <span class="loader-word">Shreya</span>
+                    <span class="loader-word loader-accent">Agarwal</span>
+                </div>
+                <div class="loader-line loader-line-2">
+                    <span class="loader-word loader-small">Visual Designer</span>
+                </div>
+                <div class="loader-line loader-line-3">
+                    <span class="loader-word loader-tiny">& creative soul</span>
+                </div>
+            </div>
+            <div class="loader-progress">
+                <div class="loader-bar" id="loaderBar"></div>
+            </div>
+            <div class="loader-percent" id="loaderPercent">0%</div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+    <div class="cursor-dot" id="cursorDot"></div>
+
+    <!-- Main Site -->
+    <div class="site-wrapper" id="siteWrapper">
+        <!-- Navigation -->
+        <nav class="navbar" id="navbar">
+            <div class="nav-left">
+                <a href="index.html" class="nav-logo" data-cursor="pointer">
+                    <span class="logo-text">shreya.</span>
+                </a>
+            </div>
+            <div class="nav-center">
+                <a href="index.html#work" class="nav-link" data-cursor="pointer">work</a>
+                <a href="about.html" class="nav-link" data-cursor="pointer">about</a>
+                <a href="index.html#contact" class="nav-link" data-cursor="pointer">contact</a>
+            </div>
+            <div class="nav-right">
+                <a href="resume/Shreya_Agarwal_Resume.pdf" download class="resume-btn" data-cursor="pointer">Resume ↗</a>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    <span>Open to work</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Hi, I'm <span class="gradient-text">Shreya</span> <span class="wave-emoji">👋</span></span>
+                    <span class="title-line title-role">
+                        I Create Design from <span class="gradient-text-alt">Zero to One</span>, Minus the Chaos.
+                    </span>
+                </h1>
+                <p class="hero-desc">
+                    I'm a Visual Communication Designer based in India, I craft visual Graphics, user interfaces, Branding and creative campaigns that hit different. Currently designing at <strong>Kinnect</strong>.
+                </p>
+                <div class="hero-cta">
+                    <a href="#work" class="btn-primary" data-cursor="pointer">See the work ↓</a>
+                    <a href="#contact" class="btn-secondary" data-cursor="pointer">Let's talk</a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://www.behance.net/shreya_agarwal123" target="_blank" class="social-link" data-cursor="pointer">Behance ↗</a>
+                    <a href="https://www.linkedin.com/in/shreya-agarwal-design" target="_blank" class="social-link" data-cursor="pointer">LinkedIn ↗</a>
+                    <a href="http://instagram.com/shreya.doodle" target="_blank" class="social-link" data-cursor="pointer">Instagram ↗</a>
+                </div>
+            </div>
+            <!-- Marquee ticker -->
+            <div class="hero-marquee">
+                <div class="marquee-track">
+                    <span>Visual Design ✦</span>
+                    <span>UI/UX ✦</span>
+                    <span>Illustration ✦</span>
+                    <span>Branding ✦</span>
+                    <span>Typography ✦</span>
+                    <span>Creative Direction ✦</span>
+                    <span>Marketing ✦</span>
+                    <span>Advertising ✦</span>
+                    <span>Visual Design ✦</span>
+                    <span>UI/UX ✦</span>
+                    <span>Illustration ✦</span>
+                    <span>Branding ✦</span>
+                    <span>Typography ✦</span>
+                    <span>Creative Direction ✦</span>
+                    <span>Marketing ✦</span>
+                    <span>Advertising ✦</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section class="work-section" id="work">
+            <div class="container">
+                <div class="section-header work-header">
+                    <div class="work-header-left">
+                        <h2 class="section-title">Case Studies</h2>
+                    </div>
+                    <div class="work-header-right">
+                        <span class="favourite-label">My Favourite Work</span>
+                    </div>
+                </div>
+
+                <!-- Case Study 1 -->
+                <div class="case-study" data-cursor="pointer">
+                    <a href="https://www.behance.net/gallery/246569223/UI-Design-Kinnect" target="_blank" class="case-link">
+                        <div class="case-study-inner">
+                            <div class="case-img-wrap">
+                                <img src="https://mir-s3-cdn-cf.behance.net/projects/404/45439e246569223.Y3JvcCwxNDAwLDEwOTUsMCwxMjk2.png" alt="UI Design - Kinnect" class="case-img" loading="lazy">
+                                <div class="case-img-overlay">
+                                    <span class="case-view">View Project ↗</span>
+                                </div>
+                            </div>
+                            <div class="case-info">
+                                <div class="case-meta">
+                                    <span class="case-tag">UI/UX Design</span>
+                                    <span class="case-year">2026</span>
+                                </div>
+                                <h3 class="case-title">UI Design — Kinnect</h3>
+                                <p class="case-desc">Designing seamless digital experiences for Kinnect's platform with focus on usability, accessibility, and clean aesthetics that users actually enjoy.</p>
+                                <div class="case-tools">
+                                    <span class="tool-tag">Figma</span>
+                                    <span class="tool-tag">Prototyping</span>
+                                    <span class="tool-tag">User Research</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Case Study 2 -->
+                <div class="case-study" data-cursor="pointer">
+                    <a href="https://www.behance.net/gallery/107273905/Peta-Campaign" target="_blank" class="case-link">
+                        <div class="case-study-inner reverse">
+                            <div class="case-img-wrap">
+                                <img src="https://mir-s3-cdn-cf.behance.net/projects/404/cb863a107273905.Y3JvcCwxNDAwLDEwOTUsMCww.png" alt="Peta Campaign" class="case-img" loading="lazy">
+                                <div class="case-img-overlay">
+                                    <span class="case-view">View Project ↗</span>
+                                </div>
+                            </div>
+                            <div class="case-info">
+                                <div class="case-meta">
+                                    <span class="case-tag">Campaign</span>
+                                    <span class="case-year">2025</span>
+                                </div>
+                                <h3 class="case-title">Peta — Campaign</h3>
+                                <p class="case-desc">Bold visuals for a bold cause. Campaign design that drives awareness and sparks conversation through powerful imagery and messaging.</p>
+                                <div class="case-tools">
+                                    <span class="tool-tag">Illustration</span>
+                                    <span class="tool-tag">Typography</span>
+                                    <span class="tool-tag">Print</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Case Study 3 -->
+                <div class="case-study" data-cursor="pointer">
+                    <a href="https://www.behance.net/gallery/234344859/Digital-Painting" target="_blank" class="case-link">
+                        <div class="case-study-inner">
+                            <div class="case-img-wrap">
+                                <img src="https://mir-s3-cdn-cf.behance.net/projects/404/b5eb56234344859.Y3JvcCw0NDg0LDM1MDcsMjMzLDA.png" alt="Digital Painting" class="case-img" loading="lazy">
+                                <div class="case-img-overlay">
+                                    <span class="case-view">View Project ↗</span>
+                                </div>
+                            </div>
+                            <div class="case-info">
+                                <div class="case-meta">
+                                    <span class="case-tag">Illustration</span>
+                                    <span class="case-year">2025</span>
+                                </div>
+                                <h3 class="case-title">Digital Painting</h3>
+                                <p class="case-desc">Exploring emotions through color and form in digital art. Each piece tells a story through vibrant palettes and expressive brushwork.</p>
+                                <div class="case-tools">
+                                    <span class="tool-tag">Procreate</span>
+                                    <span class="tool-tag">Digital Art</span>
+                                    <span class="tool-tag">Color Theory</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Case Study 4 -->
+                <div class="case-study" data-cursor="pointer">
+                    <a href="https://www.behance.net/gallery/100547263/character-design-and-doodle" target="_blank" class="case-link">
+                        <div class="case-study-inner reverse">
+                            <div class="case-img-wrap">
+                                <img src="https://mir-s3-cdn-cf.behance.net/projects/404/e97aee100547263.Y3JvcCwyMTAyLDE2NDQsMjc1MywxODA1MQ.png" alt="Character Design" class="case-img" loading="lazy">
+                                <div class="case-img-overlay">
+                                    <span class="case-view">View Project ↗</span>
+                                </div>
+                            </div>
+                            <div class="case-info">
+                                <div class="case-meta">
+                                    <span class="case-tag">Character Design</span>
+                                    <span class="case-year">2025</span>
+                                </div>
+                                <h3 class="case-title">Character Design & Doodle</h3>
+                                <p class="case-desc">Bringing characters to life with doodle energy. Each character has its own vibe, personality, and story to tell.</p>
+                                <div class="case-tools">
+                                    <span class="tool-tag">Illustration</span>
+                                    <span class="tool-tag">Character Design</span>
+                                    <span class="tool-tag">Storyboard</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Case Study 5 -->
+                <div class="case-study" data-cursor="pointer">
+                    <a href="https://www.behance.net/gallery/100715467/Mental-Health-Digital-Painting-Magazine-Design" target="_blank" class="case-link">
+                        <div class="case-study-inner">
+                            <div class="case-img-wrap">
+                                <img src="https://mir-s3-cdn-cf.behance.net/projects/404/73985b100715467.Y3JvcCwxMDMxLDgwNiwwLDA.png" alt="Mental Health Magazine" class="case-img" loading="lazy">
+                                <div class="case-img-overlay">
+                                    <span class="case-view">View Project ↗</span>
+                                </div>
+                            </div>
+                            <div class="case-info">
+                                <div class="case-meta">
+                                    <span class="case-tag">Magazine</span>
+                                    <span class="case-year">2025</span>
+                                </div>
+                                <h3 class="case-title">Mental Health — Magazine</h3>
+                                <p class="case-desc">Breaking stigma through design. Digital painting meets magazine layout to create an emotional, impactful reading experience.</p>
+                                <div class="case-tools">
+                                    <span class="tool-tag">InDesign</span>
+                                    <span class="tool-tag">Layout</span>
+                                    <span class="tool-tag">Art Direction</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Case Study 6 -->
+                <div class="case-study" data-cursor="pointer">
+                    <a href="https://www.behance.net/gallery/89819553/BRANDING-jhaonsons-baby" target="_blank" class="case-link">
+                        <div class="case-study-inner reverse">
+                            <div class="case-img-wrap">
+                                <img src="https://mir-s3-cdn-cf.behance.net/projects/404/119b1389819553.Y3JvcCwxMjQ5LDk3Nyw3NCww.png" alt="Branding" class="case-img" loading="lazy">
+                                <div class="case-img-overlay">
+                                    <span class="case-view">View Project ↗</span>
+                                </div>
+                            </div>
+                            <div class="case-info">
+                                <div class="case-meta">
+                                    <span class="case-tag">Branding</span>
+                                    <span class="case-year">2024</span>
+                                </div>
+                                <h3 class="case-title">Branding — JhonsOn's Baby</h3>
+                                <p class="case-desc">Brand identity from logo to packaging. A cohesive brand universe that tells a story at every touchpoint.</p>
+                                <div class="case-tools">
+                                    <span class="tool-tag">Branding</span>
+                                    <span class="tool-tag">Logo Design</span>
+                                    <span class="tool-tag">Packaging</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Case Study 7 -->
+                <div class="case-study" data-cursor="pointer">
+                    <a href="https://www.behance.net/gallery/101644811/UI-UX-Web-Design-Vedsidhacom" target="_blank" class="case-link">
+                        <div class="case-study-inner">
+                            <div class="case-img-wrap">
+                                <img src="https://mir-s3-cdn-cf.behance.net/projects/404/3b0270101644811.Y3JvcCwxMTc5LDkyMiwyMjEsMTcy.png" alt="Vedsidha" class="case-img" loading="lazy">
+                                <div class="case-img-overlay">
+                                    <span class="case-view">View Project ↗</span>
+                                </div>
+                            </div>
+                            <div class="case-info">
+                                <div class="case-meta">
+                                    <span class="case-tag">Web Design</span>
+                                    <span class="case-year">2025</span>
+                                </div>
+                                <h3 class="case-title">Vedsidha.com — Web Design</h3>
+                                <p class="case-desc">A complete web experience blending traditional vibes with modern aesthetics. Responsive, accessible, and beautiful.</p>
+                                <div class="case-tools">
+                                    <span class="tool-tag">Figma</span>
+                                    <span class="tool-tag">Web Design</span>
+                                    <span class="tool-tag">Responsive</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Case Study 8 -->
+                <div class="case-study" data-cursor="pointer">
+                    <a href="https://www.behance.net/gallery/101513967/Branding-Visual-Designing" target="_blank" class="case-link">
+                        <div class="case-study-inner reverse">
+                            <div class="case-img-wrap">
+                                <img src="https://mir-s3-cdn-cf.behance.net/projects/404/b17e66101513967.Y3JvcCwyMTY1LDE2OTMsNDc2LDExMg.png" alt="Visual Design" class="case-img" loading="lazy">
+                                <div class="case-img-overlay">
+                                    <span class="case-view">View Project ↗</span>
+                                </div>
+                            </div>
+                            <div class="case-info">
+                                <div class="case-meta">
+                                    <span class="case-tag">Visual Design</span>
+                                    <span class="case-year">2024</span>
+                                </div>
+                                <h3 class="case-title">Branding | Visual Designing</h3>
+                                <p class="case-desc">Visual storytelling through branding. Creating identities that resonate and visuals that communicate instantly.</p>
+                                <div class="case-tools">
+                                    <span class="tool-tag">Visual Identity</span>
+                                    <span class="tool-tag">Brand Guidelines</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Case Study 9 -->
+                <div class="case-study" data-cursor="pointer">
+                    <a href="https://www.behance.net/gallery/107104223/Tea-Trunk-Advertisement" target="_blank" class="case-link">
+                        <div class="case-study-inner">
+                            <div class="case-img-wrap">
+                                <img src="https://mir-s3-cdn-cf.behance.net/projects/404/33be11107104223.Y3JvcCwxNDYyLDExNDMsNTY0LDEwMDI.png" alt="Tea Trunk" class="case-img" loading="lazy">
+                                <div class="case-img-overlay">
+                                    <span class="case-view">View Project ↗</span>
+                                </div>
+                            </div>
+                            <div class="case-info">
+                                <div class="case-meta">
+                                    <span class="case-tag">Advertisement</span>
+                                    <span class="case-year">2025</span>
+                                </div>
+                                <h3 class="case-title">Tea Trunk — Advertisement</h3>
+                                <p class="case-desc">Advertising that's actually worth looking at. Bold, colorful, and unforgettable visuals that stop the scroll.</p>
+                                <div class="case-tools">
+                                    <span class="tool-tag">Art Direction</span>
+                                    <span class="tool-tag">Photography</span>
+                                    <span class="tool-tag">Adobe Suite</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Case Study 10 -->
+                <div class="case-study" data-cursor="pointer">
+                    <a href="https://www.behance.net/gallery/89881505/packaging-shopping-bag-branding-jhonsosns" target="_blank" class="case-link">
+                        <div class="case-study-inner reverse">
+                            <div class="case-img-wrap">
+                                <img src="https://mir-s3-cdn-cf.behance.net/projects/404/73047889881505.Y3JvcCwxOTgxLDE1NDksMTAxNSwxODY.png" alt="Packaging" class="case-img" loading="lazy">
+                                <div class="case-img-overlay">
+                                    <span class="case-view">View Project ↗</span>
+                                </div>
+                            </div>
+                            <div class="case-info">
+                                <div class="case-meta">
+                                    <span class="case-tag">Packaging</span>
+                                    <span class="case-year">2024</span>
+                                </div>
+                                <h3 class="case-title">Packaging — JhonsOn's</h3>
+                                <p class="case-desc">Unboxing experience that hits different. Packaging design that tells a story before you even open the box.</p>
+                                <div class="case-tools">
+                                    <span class="tool-tag">Packaging</span>
+                                    <span class="tool-tag">Print Design</span>
+                                    <span class="tool-tag">3D Mockup</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work-more">
+                    <a href="https://www.behance.net/shreya_agarwal123" target="_blank" class="btn-outline" data-cursor="pointer">View all on Behance ↗</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-label">Contact</div>
+                    <h2 class="section-title">Let's create something <span class="gradient-text">amazing</span> together.</h2>
+                </div>
+                <div class="contact-content">
+                    <p class="contact-desc">Got a project in mind? I'm always down for new projects and creative collaborations.</p>
+                    <div class="contact-links">
+                        <a href="https://mail.google.com/mail/?view=cm&amp;to=Shreya1912agarwal@gmail.com" target="_blank" rel="noopener" class="contact-link" data-cursor="pointer">
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value">Shreya1912agarwal@gmail.com</span>
+                            <span class="contact-arrow">↗</span>
+                        </a>
+                        <a href="https://www.behance.net/shreya_agarwal123" target="_blank" class="contact-link" data-cursor="pointer">
+                            <span class="contact-label">Behance</span>
+                            <span class="contact-value">shreya_agarwal123</span>
+                            <span class="contact-arrow">↗</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/shreya-agarwal-design" target="_blank" class="contact-link" data-cursor="pointer">
+                            <span class="contact-label">LinkedIn</span>
+                            <span class="contact-value">shreya-agarwal</span>
+                            <span class="contact-arrow">↗</span>
+                        </a>
+                        <a href="http://instagram.com/shreya.doodle" target="_blank" class="contact-link" data-cursor="pointer">
+                            <span class="contact-label">Instagram</span>
+                            <span class="contact-value">@shreya.doodle</span>
+                            <span class="contact-arrow">↗</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <span class="footer-name">Shreya Agarwal © 2026</span>
+                    <span class="footer-note">Designed with love and too much coffee ☕</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

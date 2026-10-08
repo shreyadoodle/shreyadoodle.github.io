@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <rect width="400" height="500" fill="#FFF0EB"/>
+  <circle cx="200" cy="200" r="120" fill="#FFD6E0" opacity="0.5"/>
+  <ellipse cx="200" cy="210" rx="55" ry="60" fill="#FDDCB5"/>
+  <path d="M145 180 C140 140, 170 105, 200 100 C230 105, 260 140, 255 180 C260 220, 260 270, 245 300 C235 320, 215 330, 200 335 C185 330, 165 320, 155 300 C140 270, 140 220, 145 180Z" fill="#2D2D2D"/>
+  <path d="M148 175 C148 148, 170 128, 200 125 C175 138, 162 158, 155 178Z" fill="#2D2D2D"/>
+  <path d="M252 175 C252 148, 230 128, 200 125 C225 138, 238 158, 245 178Z" fill="#2D2D2D"/>
+  <ellipse cx="182" cy="208" rx="7" ry="8" fill="#2D2D2D"/>
+  <ellipse cx="218" cy="208" rx="7" ry="8" fill="#2D2D2D"/>
+  <circle cx="184" cy="206" r="2" fill="white"/>
+  <circle cx="220" cy="206" r="2" fill="white"/>
+  <ellipse cx="167" cy="222" rx="10" ry="6" fill="#FFB6C1" opacity="0.5"/>
+  <ellipse cx="233" cy="222" rx="10" ry="6" fill="#FFB6C1" opacity="0.5"/>
+  <path d="M192 232 Q200 240, 208 232" stroke="#2D2D2D" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <rect x="192" y="268" width="16" height="20" rx="8" fill="#FDDCB5"/>
+  <path d="M160 290 C160 280, 178 272, 200 272 C222 272, 240 280, 240 290 L248 370 C248 378, 225 388, 200 388 C175 388, 152 378, 152 370Z" fill="#C8A2E8"/>
+  <path d="M160 295 C140 305, 125 335, 122 360 C120 368, 125 370, 130 366 C135 360, 145 340, 160 320" fill="#FDDCB5"/>
+  <path d="M240 295 C260 305, 275 335, 278 360 C280 368, 275 370, 270 366 C265 360, 255 340, 240 320" fill="#FDDCB5"/>
+  <circle cx="160" cy="160" r="7" fill="#FFB6C1"/>
+  <circle cx="153" cy="155" r="4.5" fill="#FFCBA4"/>
+  <circle cx="167" cy="155" r="4.5" fill="#FFCBA4"/>
+  <circle cx="160" cy="160" r="3.5" fill="#FF8A80"/>
+  <g fill="#FFB6C1" opacity="0.6"><path d="M300 150 L303 158 L310 158 L304 163 L306 170 L300 165 L294 170 L296 163 L290 158 L297 158Z" transform="scale(0.5) translate(120, 80)"/></g>
+  <g fill="#C8A2E8" opacity="0.5"><path d="M300 150 L302 156 L308 156 L303 160 L305 166 L300 162 L295 166 L297 160 L292 156 L298 156Z" transform="scale(0.4) translate(50, 300)"/></g>
+  <text x="200" y="440" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#A0A0A0">Replace with your photo ♡</text>
+</svg>
